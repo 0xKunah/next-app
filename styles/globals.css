@@ -39,15 +39,3 @@ html, body, #__next {
 ::-webkit-scrollbar-corner {
   background-color: transparent;
 }
-
-#container::-webkit-scrollbar{
-  display: none;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-
-#scrolled::-webkit-scrollbar{
-  display: initial !important;
-  -ms-overflow-style: initial !important;
-  scrollbar-width: initial !important;
-}
