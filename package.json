@@ -1,6 +1,5 @@
 {
-  "name": "kunah.fr",
-  "isDev": true,
+  "name": "site-name",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,15 +8,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "axios": "^0.25.0",
-    "discord.js": "12.5",
-    "jquery": "^3.6.0",
-    "mysql": "^2.18.1",
     "next": "12.0.10",
-    "nodemailer": "^6.7.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-icons": "^4.3.1"
+    "react-dom": "17.0.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.2",
