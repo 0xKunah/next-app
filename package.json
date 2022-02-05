@@ -1,5 +1,5 @@
 {
-  "name": "site-name",
+  "name": "cloud.kunah.fr",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,6 +8,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "^0.25.0",
+    "mysql": "^2.18.1",
     "next": "12.0.10",
     "react": "17.0.2",
     "react-dom": "17.0.2"
