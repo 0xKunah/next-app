@@ -40,17 +40,6 @@ html, body, #__next {
   background-color: transparent;
 }
 
-#container{
-  background-image: url('../public/background.jpg');
-}
-
-#beforeTb>div{
-  background: rgba( 108, 108, 108, 0.50 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 10.0px );
-  -webkit-backdrop-filter: blur( 10.0px );
-}
-
 #container::-webkit-scrollbar{
   display: none;
   -ms-overflow-style: none;
@@ -61,47 +50,4 @@ html, body, #__next {
   display: initial !important;
   -ms-overflow-style: initial !important;
   scrollbar-width: initial !important;
-}
-
-
-#circled:hover{
-  animation-name: spin;
-  animation-duration: 3000ms;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear; 
-}
-
-#topbar a, #topbar p{
-  margin-left: 0.5rem;
-  color: rgb(55 65 81);
-  font-weight: 600;
-  cursor: pointer;
-}
-
-
-#topbar a:hover, #topbar p:hover{
-  text-decoration-line: underline;
-  color: rgb(17 24 39);
-}
-
-#topbar #home{
-  display: flex;
-  align-items: center;
-}
-
-#topbar #home, #topbar #home p, #topbar #home a{
-  color: rgb(229 231 235)
-}
-
-#topbar #home:hover, #topbar #home:hover p, #topbar #home:hover a{
-  color: #fff
-}
-
-@keyframes spin {
-  from {
-      transform:rotate(0deg);
-  }
-  to {
-      transform:rotate(360deg);
-  }
 }
