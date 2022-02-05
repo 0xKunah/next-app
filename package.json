@@ -1,5 +1,5 @@
 {
-  "name": "cloud.kunah.fr",
+  "name": "template",
   "private": true,
   "scripts": {
     "dev": "next dev",
